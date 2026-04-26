@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="fb.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a class="logo-text" href="index.html">facebook</a>
+        </div>
+        <div class="login">
+          <form action="#" method="post" class="login-controls">
+            <div class="login-row">
+              <label class="login-label" for="login-email"
+                >Email or Phone</label
+              >
+              <label class="login-label" for="login-password">Password</label>
+            </div>
+
+            <div class="login-row">
+              <input
+                id="login-email"
+                name="email"
+                type="text"
+                placeholder="Email or Phone"
+                autocomplete="username"
+                required
+              />
+              <input
+                id="login-password"
+                name="password"
+                type="password"
+                placeholder="Password"
+                autocomplete="current-password"
+                required
+              />
+              <input class="sub-btn" type="submit" value="Log In" />
+            </div>
+
+            <div class="login-row">
+              <a class="forgotten" href="forgotten.html">Forgotten account?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="left-section">
+          <p class="para">
+            Facebook helps you connect and share with the people in your life.
+          </p>
+          <img class="image" src="fb.png" />
+        </div>
+        <div class="right-section">
+          <h1>Create an account</h1>
+          <p class="para2">It's quick and easy.</p>
+          <form action="">
+            <table>
+              <tr>
+                <td>
+                  <input class="form" type="text" placeholder="First name" />
+                </td>
+                <td>
+                  <input class="form" type="text" placeholder="Last name" />
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>
+                  <input
+                    class="contact"
+                    type="email"
+                    placeholder="Mobile number or email address"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="contact"
+                    type="password"
+                    placeholder="New Password"
+                  />
+                </td>
+              </tr>
+            </table>
+          </form>
+          <div class="bottom-section">
+            <h3>Birthday</h3>
+            <div class="bod">
+              <select class="day" name="" id="">
+                <option value="">Day</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select>
+              <select class="month" name="" id="">
+                <option value="">Month</option>
+                <option value="">Jan</option>
+                <option value="">Feb</option>
+                <option value="">march</option>
+              </select>
+              <select class="year" name="" id="">
+                <option value="">Year</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+              </select>
+              <button class="question">?</button>
+            </div>
+            <h3>Gender</h3>
+            <div>
+              <input type="radio" name="gender" id="female" /><label
+                class="gender"
+                for="female"
+                >Female</label
+              >
+              <input type="radio" name="gender" id="male" /><label
+                class="gender"
+                for="male"
+                >Male</label
+              >
+              <input type="radio" name="gender" id="custom" /><label
+                class="gender"
+                for="custom"
+                >Custom</label
+              >
+              <button type="button" class="question">?</button>
+            </div>
+            <p class="para-small">
+              By clicking Sign Up, you agree to our Terms, Data Policy and
+              Cookie Policy. <br />
+              You may receive SMS notifications from us and can opt out at any
+              time.
+            </p>
+            <button type="submit" class="signup">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
